@@ -18,6 +18,12 @@ namespace RoslaTechs.Controllers
             return View();
         }
 
+        public IActionResult Consultations()
+        {
+            return View();
+        }
+        
+
         public IActionResult Privacy()
         {
             return View();

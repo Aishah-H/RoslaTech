@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTechs\\RoslaTechs.csproj": {}
+    "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTech\\RoslaTechs\\RoslaTechs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTechs\\RoslaTechs.csproj": {
+    "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTech\\RoslaTechs\\RoslaTechs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTechs\\RoslaTechs.csproj",
+        "projectUniqueName": "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTech\\RoslaTechs\\RoslaTechs.csproj",
         "projectName": "RoslaTechs",
-        "projectPath": "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTechs\\RoslaTechs.csproj",
+        "projectPath": "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTech\\RoslaTechs\\RoslaTechs.csproj",
         "packagesPath": "C:\\Users\\aisha.hersi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTechs\\obj\\",
+        "outputPath": "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTech\\RoslaTechs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,6 +69,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.11, )"
+            },
+            "Microsoft.VisualStudio.LiveShare": {
+              "target": "Package",
+              "version": "[1.1.57, )"
             }
           },
           "imports": [

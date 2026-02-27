@@ -1,0 +1,32 @@
+﻿@model RoslaTechs.Models.Consultation
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> userManager
+
+@{
+    ViewData["Title"] = "Consultations Booking";
+}
+
+<div class="container">
+    <h1>Consultation Booking</h1>
+
+    
+        <form asp-action="ConsultForm" method="post">
+            <label>Name</label>
+            <input type="text" />
+            <br />
+            <label>Phone Number</label>
+            <input type="number" />
+            <br />
+            <label>Date</label>
+            <input type="date" />
+            <br />
+            <label>All Day</label>
+            <input type="checkbox" />
+            <br />
+            <button type="submit">Submit</button>
+        </form>
+    
+</div>
+
+
+

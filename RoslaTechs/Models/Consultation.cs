@@ -4,12 +4,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace RoslaTechs.Models
 {
-    public class Products
+    public class Consultation
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Image { get; set; }
-        public string Description { get; set; }
+        public DateTime Start { get; set; }
+        public DateTime End { get; set; }
+        public bool IsAllDay { get; set; }
+        public bool IsAvailable { get; set; }
 
         [Required]
         public string? IdentityUserId { get; set; }
