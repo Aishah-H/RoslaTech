@@ -9,53 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RoslaTechs
 build_property.RootNamespace = RoslaTechs
-build_property.ProjectDir = C:\Users\aisha.hersi\source\repos\RoslaTechs\RoslaTech\RoslaTechs\
+build_property.ProjectDir = C:\Users\hersi\source\repos\RoslaTechs\RoslaTechs\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\aisha.hersi\source\repos\RoslaTechs\RoslaTech\RoslaTechs
+build_property.MSBuildProjectDirectory = C:\Users\hersi\source\repos\RoslaTechs\RoslaTechs
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/aisha.hersi/source/repos/RoslaTechs/RoslaTech/RoslaTechs/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/hersi/source/repos/RoslaTechs/RoslaTechs/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aisha.hersi/source/repos/RoslaTechs/RoslaTech/RoslaTechs/Views/Home/Consultations.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25zdWx0YXRpb25zLmNzaHRtbA==
+[C:/Users/hersi/source/repos/RoslaTechs/RoslaTechs/Views/Home/CarbonFootprint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJib25Gb290cHJpbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aisha.hersi/source/repos/RoslaTechs/RoslaTech/RoslaTechs/Views/Home/Index.cshtml]
+[C:/Users/hersi/source/repos/RoslaTechs/RoslaTechs/Views/Home/Consultation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25zdWx0YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hersi/source/repos/RoslaTechs/RoslaTechs/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aisha.hersi/source/repos/RoslaTechs/RoslaTech/RoslaTechs/Views/Home/Privacy.cshtml]
+[C:/Users/hersi/source/repos/RoslaTechs/RoslaTechs/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aisha.hersi/source/repos/RoslaTechs/RoslaTech/RoslaTechs/Views/Shared/Error.cshtml]
+[C:/Users/hersi/source/repos/RoslaTechs/RoslaTechs/Views/Home/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hersi/source/repos/RoslaTechs/RoslaTechs/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aisha.hersi/source/repos/RoslaTechs/RoslaTech/RoslaTechs/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/hersi/source/repos/RoslaTechs/RoslaTechs/Views/Shared/Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hersi/source/repos/RoslaTechs/RoslaTechs/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aisha.hersi/source/repos/RoslaTechs/RoslaTech/RoslaTechs/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/hersi/source/repos/RoslaTechs/RoslaTechs/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aisha.hersi/source/repos/RoslaTechs/RoslaTech/RoslaTechs/Views/_ViewImports.cshtml]
+[C:/Users/hersi/source/repos/RoslaTechs/RoslaTechs/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aisha.hersi/source/repos/RoslaTechs/RoslaTech/RoslaTechs/Views/_ViewStart.cshtml]
+[C:/Users/hersi/source/repos/RoslaTechs/RoslaTechs/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aisha.hersi/source/repos/RoslaTechs/RoslaTech/RoslaTechs/Views/Shared/_Layout.cshtml]
+[C:/Users/hersi/source/repos/RoslaTechs/RoslaTechs/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-s23ho3sun1

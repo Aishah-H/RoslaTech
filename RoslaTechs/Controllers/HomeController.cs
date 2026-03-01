@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using RoslaTechs.Models;
 
 namespace RoslaTechs.Controllers
@@ -18,11 +19,27 @@ namespace RoslaTechs.Controllers
             return View();
         }
 
-        public IActionResult Consultations()
+        public IActionResult Products()
         {
             return View();
         }
-        
+
+        public IActionResult Consultation()
+        {
+            return View();
+        }
+
+        public IActionResult CarbonFootprint()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CalcCarbonFoot(CarbonFootprint model)
+        {
+            model.Message = "Sorry this page is still under construction";
+            return View("CarbonFootprint", model);
+        }
 
         public IActionResult Privacy()
         {

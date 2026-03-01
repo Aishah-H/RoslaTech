@@ -1,0 +1,31 @@
+﻿@model RoslaTechs.Models.CarbonFootprint
+@{
+}
+
+
+<div>
+    <h1 class="display-4">Carbon Footprint Calculator</h1>
+    <p>Calculate your carbon footprint and discover ways to reduce it.</p>
+    <form asp-controller="Home" asp-action="CalcCarbonFoot" method="post">
+        <div class="mb-3">
+            <label for="electricityUsage" class="form-label">Electricity Usage (kWh/month)</label>
+            <input type="number" class="form-control" id="electricityUsage" name="electricityUsage" required>
+        </div>
+        <div class="mb-3">
+            <label for="vehicleMiles" class="form-label">Vehicle Miles Driven (miles/year)</label>
+            <input type="number" class="form-control" id="vehicleMiles" name="vehicleMiles" required>
+        </div>
+        <div class="mb-3">
+            <label for="flightHours" class="form-label">Flight Hours (hours/year)</label>
+            <input type="number" class="form-control" id="flightHours" name="flightHours" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Calculate</button>
+    </form>
+</div>
+
+<!--if (Model.Message != null)
+{
+    <div class="alert alert-info mt-3" role="alert">
+        Model.Message
+    </div>
+}-->

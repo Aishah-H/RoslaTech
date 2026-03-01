@@ -12,11 +12,11 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-RoslaTechs-2dcf7a06-9ffe-49d6-8252-317d7f52ae34")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-RoslaTechs-a09ad19a-5bc4-4a8f-bb4c-946ee0940ec3")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoslaTechs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0abae4ea8db40eb4717f2ef0a658841a68d19030")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoslaTechs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoslaTechs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

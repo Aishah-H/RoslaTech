@@ -20,3 +20,7 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+header {
+    background-color: rgba(130, 184, 119, 1);
+}

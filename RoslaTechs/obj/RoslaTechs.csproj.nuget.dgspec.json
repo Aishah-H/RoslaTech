@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTech\\RoslaTechs\\RoslaTechs.csproj": {}
+    "C:\\Users\\hersi\\source\\repos\\RoslaTechs\\RoslaTechs\\RoslaTechs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTech\\RoslaTechs\\RoslaTechs.csproj": {
+    "C:\\Users\\hersi\\source\\repos\\RoslaTechs\\RoslaTechs\\RoslaTechs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTech\\RoslaTechs\\RoslaTechs.csproj",
+        "projectUniqueName": "C:\\Users\\hersi\\source\\repos\\RoslaTechs\\RoslaTechs\\RoslaTechs.csproj",
         "projectName": "RoslaTechs",
-        "projectPath": "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTech\\RoslaTechs\\RoslaTechs.csproj",
-        "packagesPath": "C:\\Users\\aisha.hersi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aisha.hersi\\source\\repos\\RoslaTechs\\RoslaTech\\RoslaTechs\\obj\\",
+        "projectPath": "C:\\Users\\hersi\\source\\repos\\RoslaTechs\\RoslaTechs\\RoslaTechs.csproj",
+        "packagesPath": "C:\\Users\\hersi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hersi\\source\\repos\\RoslaTechs\\RoslaTechs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aisha.hersi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hersi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -52,27 +52,23 @@
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[8.0.11, )"
-            },
-            "Microsoft.VisualStudio.LiveShare": {
-              "target": "Package",
-              "version": "[1.1.57, )"
+              "version": "[8.0.20, )"
             }
           },
           "imports": [
@@ -94,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

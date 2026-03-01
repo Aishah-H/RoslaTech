@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using RoslaTechs.Models;
 
 namespace RoslaTechs.Data
 {
@@ -10,8 +9,5 @@ namespace RoslaTechs.Data
             : base(options)
         {
         }
-
-        public DbSet<Consultation> Consultations { get; set; }
-        
     }
 }
