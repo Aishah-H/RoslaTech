@@ -6,7 +6,7 @@
     <h1>Consultation</h1>
     <p>Welcome to the consultation page. Here you can book a consultation.</p>
     
-    <form asp-controller="Home" asp-action="BookConsultation" method="post">
+    <form asp-controller="Home" asp-action="Consultation" method="post">
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
             <input type="text" class="form-control" id="name" name="name" required>
@@ -22,3 +22,9 @@
         <button type="submit" class="btn btn-primary">Book Consultation</button>
     </form>
 </div>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <hr />
+    <h3 class="text-danger">@Model.Message</h3>
+}

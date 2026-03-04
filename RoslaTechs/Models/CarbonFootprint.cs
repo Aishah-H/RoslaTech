@@ -7,6 +7,6 @@
         public int vehicleMiles { get; set; }
         public int flightHours { get; set; }
 
-        public string Message { get; set; } = "Sorry this page is still under construction";
+        public string Message { get; set; }
     }
 }

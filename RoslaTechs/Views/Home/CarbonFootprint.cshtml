@@ -23,9 +23,8 @@
     </form>
 </div>
 
-<!--if (Model.Message != null)
+@if (!string.IsNullOrEmpty(Model.Message))
 {
-    <div class="alert alert-info mt-3" role="alert">
-        Model.Message
-    </div>
-}-->
+    <hr />
+    <h3>@Model.Message</h3>
+}

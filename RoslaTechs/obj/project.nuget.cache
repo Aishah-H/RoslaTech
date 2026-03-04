@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q7cyLtU7AN8=",
+  "dgSpecHash": "sn3+s/GZpb4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hersi\\source\\repos\\RoslaTechs\\RoslaTechs\\RoslaTechs.csproj",
+  "projectFilePath": "C:\\Users\\hersi\\source\\repos\\RoslaTechs\\RoslaTech\\RoslaTechs\\RoslaTechs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hersi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\hersi\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

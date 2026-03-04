@@ -24,14 +24,31 @@ namespace RoslaTechs.Controllers
             return View();
         }
 
-        public IActionResult Consultation()
+       
+        public IActionResult Consultation(Consultation model)
         {
-            return View();
+            if (model.Name != null || model.Email != null)
+            {
+                model.Message = "Thank you for your consultation request, we will get back to you soon!";
+            }
+            else
+            {
+                model.Message = "Please fill in all required fields.";
+            }
+            return View(model);
         }
 
-        public IActionResult CarbonFootprint()
+        public IActionResult CarbonFootprint(CarbonFootprint model)
         {
-            return View();
+            if (ModelState.IsValid)
+            {
+                model.Message ="Sorry this page is still under construction";
+            }
+            else
+            {
+                model.Message = "Please fill in all required fields.";
+            }
+            return View(model);
         }
 
         [HttpPost]
